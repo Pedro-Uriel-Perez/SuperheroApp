@@ -69,36 +69,37 @@ El proyecto está organizado en los siguientes módulos:
 - Visualización de estadísticas de poder mediante barras de progreso
 - Carga de imágenes de superhéroes
 
-
 # Evidencias de Funcionamiento
 
 ## Búsqueda de Superman
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex: 1; margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/66eb4636-ea6d-4095-93d3-d1488bceb072" alt="Pantalla de Búsqueda" width="250"/>
-    <p align="center">Pantalla de Búsqueda</p>
-  </div>
-  <div style="flex: 1; margin-right: 10px;">
-    <img src="https://github.com/user-attachments/assets/fc49e49d-1519-4f98-836f-f780eac91b79" alt="Lista de Superhéroes" width="250"/>
-    <p align="center">Lista de Resultados</p>
-  </div>
-  <div style="flex: 1;">
-    <img src="https://github.com/user-attachments/assets/a49e5603-3df5-483e-83ef-c7416c5a470f" alt="Detalle de Superhéroe" width="250"/>
-    <p align="center">Detalle del Superhéroe</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td width="33%">
+      <img src="https://github.com/user-attachments/assets/66eb4636-ea6d-4095-93d3-d1488bceb072" alt="Pantalla de Búsqueda" width="200"/>
+      <p align="center">Pantalla de Búsqueda</p>
+    </td>
+    <td width="33%">
+      <img src="https://github.com/user-attachments/assets/fc49e49d-1519-4f98-836f-f780eac91b79" alt="Lista de Superhéroes" width="200"/>
+      <p align="center">Lista de Resultados</p>
+    </td>
+    <td width="33%">
+      <img src="https://github.com/user-attachments/assets/a49e5603-3df5-483e-83ef-c7416c5a470f" alt="Detalle de Superhéroe" width="200"/>
+      <p align="center">Detalle del Superhéroe</p>
+    </td>
+  </tr>
+</table>
 
 ## Búsqueda de Kick-Ass
 
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/2a459001-623c-4719-9130-dc27b666d21a" alt="Lista de Superhéroes" width="100%"/>
+      <img src="https://github.com/user-attachments/assets/2a459001-623c-4719-9130-dc27b666d21a" alt="Lista de Superhéroes" width="200"/>
       <p align="center">Lista de Resultados</p>
     </td>
     <td width="50%">
-      <img src="https://github.com/user-attachments/assets/ae801f14-7570-47e1-9378-9783a7d65716" alt="Detalle de Superhéroe" width="100%"/>
+      <img src="https://github.com/user-attachments/assets/ae801f14-7570-47e1-9378-9783a7d65716" alt="Detalle de Superhéroe" width="200"/>
       <p align="center">Detalle del Superhéroe</p>
     </td>
   </tr>
@@ -108,19 +109,17 @@ El proyecto está organizado en los siguientes módulos:
 
 En las capturas de pantalla podemos observar las principales funcionalidades de la aplicación:
 
-1. **Búsqueda de superhéroes**: La aplicación permite buscar superhéroes por su nombre, como se muestra en la primera imagen.
+1. **Búsqueda de superhéroes**: La aplicación permite buscar superhéroes por su nombre.
 
-2. **Vista maestro (lista de resultados)**: La aplicación muestra los resultados de la búsqueda en una lista, donde cada elemento muestra la imagen del superhéroe, su nombre y detalles básicos.
+2. **Vista maestro (lista de resultados)**: Muestra los resultados con imagen, nombre y detalles básicos.
 
-3. **Vista detalle**: Al seleccionar un superhéroe de la lista, la aplicación muestra una vista detallada con:
+3. **Vista detalle**: Al seleccionar un superhéroe, se muestran:
    - Imagen a mayor tamaño
    - Nombre del superhéroe
    - Nombre real
    - Editorial
-   - Estadísticas de poder representadas con barras de progreso
+   - Estadísticas de poder con barras de progreso
 
-4. **Consumo de API**: Se evidencia el correcto consumo de la API de superhéroes al mostrar datos reales tanto de Superman como de Kick-Ass, demostrando la versatilidad de la aplicación para obtener información de diferentes personajes.
+4. **Consumo de API**: Se evidencia el correcto consumo de la API de superhéroes al mostrar datos reales.
 
-5. **Interfaz responsive**: La interfaz se adapta correctamente al contenido, manteniendo una experiencia de usuario consistente con diferentes superhéroes.
-
-
+5. **Interfaz responsive**: La interfaz se adapta correctamente al contenido mostrado.
