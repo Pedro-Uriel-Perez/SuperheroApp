@@ -12,11 +12,6 @@ Para este proyecto, utilize la **SuperheroAPI** (https://superheroapi.com/):
 - Datos variados como nombres, biografías, estadísticas de poder e imágenes
 - Permite búsqueda por nombre de superhéroe
 
-### Endpoints utilizados:
-- **Búsqueda**: `https://superheroapi.com/api/{access-token}/search/{name}`
-  - Devuelve una lista de superhéroes que coincidan con el nombre buscado
-- **Detalle**: `https://superheroapi.com/api/{access-token}/{hero-id}`
-  - Devuelve información detallada de un superhéroe específico
 
 ### Estructura de datos:
 La API devuelve datos en formato JSON con la siguiente estructura principal:
@@ -47,20 +42,6 @@ La API devuelve datos en formato JSON con la siguiente estructura principal:
   ]
 }
 ```
-
-## Estructura del Proyecto KMM
-El proyecto está organizado en los siguientes módulos:
-
-- **shared**: Código común compartido entre plataformas
-  - Modelos de datos
-  - Comunicación con la API
-  - ViewModels
-
-- **androidApp**: Implementación específica para Android
-  - UI con Jetpack Compose
-  - Navegación entre pantallas
-
-- **iosApp**: Implementación específica para iOS (estructura base)
 
 ## Funcionalidades
 - Búsqueda de superhéroes por nombre
@@ -119,7 +100,3 @@ En las capturas de pantalla podemos observar las principales funcionalidades de 
    - Nombre real
    - Editorial
    - Estadísticas de poder con barras de progreso
-
-4. **Consumo de API**: Se evidencia el correcto consumo de la API de superhéroes al mostrar datos reales.
-
-5. **Interfaz responsive**: La interfaz se adapta correctamente al contenido mostrado.
