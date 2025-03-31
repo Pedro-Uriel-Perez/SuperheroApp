@@ -1,22 +1,10 @@
-# SuperheroApp
-Aplicación multiplataforma Kotlin que consume la API de Superhéroes usando Jetpack Compose
-
-
-
 # SuperheroApp - Aplicación Multiplataforma con Kotlin y Jetpack Compose
 
 ## Descripción
-SuperheroApp es una aplicación multiplataforma (Android e iOS) desarrollada con Kotlin Multiplatform Mobile (KMM) y Jetpack Compose que consume la API de Superhéroes para mostrar información detallada sobre personajes de cómics.
-
-## Objetivos del Proyecto
-- Desarrollar una aplicación multiplataforma utilizando KMM
-- Implementar una interfaz de usuario con Jetpack Compose
-- Consumir una API pública sin autenticación compleja
-- Procesar datos JSON y mostrarlos en un formato maestro-detalle
-- No utilizar base de datos local para almacenar la información
+SuperheroApp es una aplicación multiplataforma desarrollada con Kotlin Multiplatform Mobile (KMM) y Jetpack Compose que consume la API de Superhéroes para mostrar información detallada sobre personajes de cómics.
 
 ## API Utilizada
-Para este proyecto, se utilizó la **SuperheroAPI** (https://superheroapi.com/):
+Para este proyecto, utilize la **SuperheroAPI** (https://superheroapi.com/):
 
 ### Características de la API:
 - API gratuita que proporciona información detallada sobre superhéroes de cómics
@@ -60,25 +48,10 @@ La API devuelve datos en formato JSON con la siguiente estructura principal:
 }
 ```
 
-## Arquitectura del Proyecto
-El proyecto utiliza una arquitectura limpia (Clean Architecture) con las siguientes capas:
-
-### 1. Capa de Datos (Data Layer)
-- **API**: Interfaces y clases para comunicarse con la API de superhéroes
-- **Modelo**: Clases de datos que representan la información de los superhéroes
-
-### 2. Capa de Dominio (Domain Layer)
-- **Repositorio**: Interfaz y clase que coordina la obtención de datos de la API
-
-### 3. Capa de Presentación (UI Layer)
-- **ViewModel**: Gestiona el estado de la UI y la lógica de negocio
-- **UI**: Pantallas y componentes implementados con Jetpack Compose
-
 ## Estructura del Proyecto KMM
 El proyecto está organizado en los siguientes módulos:
 
 - **shared**: Código común compartido entre plataformas
-  - Implementación de la lógica de negocio
   - Modelos de datos
   - Comunicación con la API
   - ViewModels
@@ -96,27 +69,9 @@ El proyecto está organizado en los siguientes módulos:
 - Visualización de estadísticas de poder mediante barras de progreso
 - Carga de imágenes de superhéroes
 
-## Desafíos y Soluciones
-Durante el desarrollo del proyecto enfrenté varios desafíos:
-
-1. **Configuración de Kotlin Multiplatform**: 
-   - Problema: Configuración inicial de la estructura del proyecto KMM.
-   - Solución: Investigación de la documentación oficial y uso de plantillas predefinidas.
-
-2. **Integración de Ktor para comunicación con API**:
-   - Problema: Configuración de cliente HTTP para realizar peticiones a la API.
-   - Solución: Implementación de serializadores y manejo de errores HTTP.
-
-3. **Manejo de estados en Compose**:
-   - Problema: Gestión de estados de carga, éxito y error.
-   - Solución: Uso de StateFlow y sealed classes para representar los diferentes estados.
-
-4. **Optimización de la búsqueda**:
-   - Problema: La aplicación se bloqueaba al realizar múltiples búsquedas.
-   - Solución: Cancelación de jobs previos al iniciar una nueva búsqueda.
 
 ## Capturas de Pantalla
-![Pantalla de Búsqueda](screenshots/search_screen.png)
+![Pantalla de Búsqueda](![image](https://github.com/user-attachments/assets/66eb4636-ea6d-4095-93d3-d1488bceb072)
 ![Lista de Superhéroes](screenshots/heroes_list.png)
 ![Detalle de Superhéroe](screenshots/hero_detail.png)
 
