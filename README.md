@@ -70,27 +70,18 @@ El proyecto está organizado en los siguientes módulos:
 - Carga de imágenes de superhéroes
 
 
-## Capturas de Pantalla
+## Evidencias de Funcionamiento 
+# Superman
 ![Pantalla de Búsqueda](![image](https://github.com/user-attachments/assets/66eb4636-ea6d-4095-93d3-d1488bceb072)
-![Lista de Superhéroes](screenshots/heroes_list.png)
-![Detalle de Superhéroe](screenshots/hero_detail.png)
+![Lista de Superhéroes](![image](https://github.com/user-attachments/assets/fc49e49d-1519-4f98-836f-f780eac91b79)
+![Detalle de Superhéroe](![image](https://github.com/user-attachments/assets/a49e5603-3df5-483e-83ef-c7416c5a470f)
 
-## Herramientas y Tecnologías
-- **Kotlin Multiplatform Mobile**: Para compartir código entre plataformas
-- **Jetpack Compose**: Para la interfaz de usuario en Android
-- **Ktor**: Para la comunicación con la API
-- **Kotlinx Serialization**: Para procesar JSON
-- **Kotlinx Coroutines**: Para programación asíncrona
-- **Coil**: Para cargar imágenes
 
-## Ejecución del Proyecto
-1. Clona el repositorio
-2. Abre el proyecto en Android Studio (Arctic Fox o superior)
-3. Sincroniza el proyecto con Gradle
-4. Ejecuta la aplicación en un emulador o dispositivo Android
+# Kick-Ass
+![Lista de Superhéroes](![image](https://github.com/user-attachments/assets/2a459001-623c-4719-9130-dc27b666d21a)
+![Detalle de Superhéroe](![image](https://github.com/user-attachments/assets/ae801f14-7570-47e1-9378-9783a7d65716)
 
-## Mejoras Futuras
-- Implementación completa de la interfaz de usuario para iOS
-- Añadir filtros por categorías (editores, alineación, etc.)
-- Implementar favoritos usando almacenamiento local
-- Mejorar el diseño visual con animaciones y transiciones
+
+
+
+
